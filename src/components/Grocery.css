@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+  grid-template-columns: repeat(5,1fr);
+ 
+}
+#main{
+    border: 1px solid black;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    ;
+}
+
