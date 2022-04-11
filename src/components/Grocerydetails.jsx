@@ -12,7 +12,7 @@ console.log(data)
         <div className="container">
             {/* map through the data and display the cards */}
             {data.map((item,index)=>{
-              return <GroceryItem key = {item.id}{...item}/>
+              return <GroceryItem key = {item.id} {...item}/>
             })
             }
         </div>

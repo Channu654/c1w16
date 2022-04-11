@@ -1,3 +1,4 @@
+import { useState } from "react";
 
 // keep the add to cart component here
 const CartButton = () => {
